@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+/* ===========================================================================================
+                                ***  Mango CSS3 Buttons  ***
+                                         Aktuğ Urun
+                                        aktugurun.com
+   =========================================================================================== */
+
+$blue : #0090d9;
+$green : #4f9f2d;
+$red : #ff0000;
+$grey : #5a5a5a;
+$purple : #CE66FF;
+$pink : #FF54A1;
+$yellow : #fdd01c;
+$orange : #FF6016;
+
+.mangobtn {
+  font-family: 'Cabin', sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #f4f4f4;
+  margin: 3px;
+
+  &:active {
+    position: relative;
+    top: 2px;
+  }
+  &.xs {
+    padding: 3px 8px;
+    font-size: 13px;
+  }
+  &.sm {
+    padding: 9px 11px;
+    font-size: 13px;
+  }
+  &.md {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+  &.lg {
+    padding: 15px 24px;
+    font-size: 16px;
+  }
+
+  &.red {
+    background-color: $red;
+    -webkit-box-shadow: 0px 3px 0px darken($red, 15%);
+    -moz-box-shadow: 0px 3px 0px darken($red, 15%);
+    box-shadow: 0px 3px 0px darken($red, 15%);
+
+    &:hover {
+      background-color: darken($red, 5%);
+      -webkit-box-shadow: 0px 3px 0px darken($red, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 0px 3px 0px darken($red, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 3px 0px darken($red, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+    }
+    &:active {
+      box-shadow: 0 0 #fff, 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      transform: translateY(1px);
+    }
+  }
+  &.grey {
+    background-color: $grey;
+    -webkit-box-shadow: 0px 3px 0px darken($grey, 15%);
+    -moz-box-shadow: 0px 3px 0px darken($grey, 15%);
+    box-shadow: 0px 3px 0px darken($grey, 15%);
+
+    &:hover {
+      background-color: darken($grey, 5%);
+      -webkit-box-shadow: 0px 3px 0px darken($grey, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 0px 3px 0px darken($grey, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 3px 0px darken($grey, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+    }
+    &:active {
+      box-shadow: 0 0 #fff, 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      transform: translateY(1px);
+    }
+  }
+  &.green {
+    background-color: $green;
+    -webkit-box-shadow: 0px 3px 0px darken($green, 15%);
+    -moz-box-shadow: 0px 3px 0px darken($green, 15%);
+    box-shadow: 0px 3px 0px darken($green, 15%);
+
+    &:hover {
+      background-color: darken($green, 5%);
+      -webkit-box-shadow: 0px 3px 0px darken($green, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 0px 3px 0px darken($green, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 3px 0px darken($green, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+    }
+    &:active {
+      box-shadow: 0 0 #fff, 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      transform: translateY(1px);
+    }
+  }
+  &.purple {
+    background-color: $purple;
+    -webkit-box-shadow: 0px 3px 0px darken($purple, 15%);
+    -moz-box-shadow: 0px 3px 0px darken($purple, 15%);
+    box-shadow: 0px 3px 0px darken($purple, 15%);
+
+    &:hover {
+      background-color: darken($purple, 5%);
+      -webkit-box-shadow: 0px 3px 0px darken($purple, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 0px 3px 0px darken($purple, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 3px 0px darken($purple, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+    }
+    &:active {
+      box-shadow: 0 0 #fff, 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      transform: translateY(1px);
+    }
+  }
+
+  &.pink {
+    background-color: $pink;
+    -webkit-box-shadow: 0px 3px 0px darken($pink, 15%);
+    -moz-box-shadow: 0px 3px 0px darken($pink, 15%);
+    box-shadow: 0px 3px 0px darken($pink, 15%);
+
+    &:hover {
+      background-color: darken($pink, 5%);
+      -webkit-box-shadow: 0px 3px 0px darken($pink, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 0px 3px 0px darken($pink, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 3px 0px darken($pink, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+    }
+    &:active {
+      box-shadow: 0 0 #fff, 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      transform: translateY(1px);
+    }
+  }
+  &.blue {
+    background-color: $blue;
+    -webkit-box-shadow: 0px 3px 0px darken($blue, 15%);
+    -moz-box-shadow: 0px 3px 0px darken($blue, 15%);
+    box-shadow: 0px 3px 0px darken($blue, 15%);
+
+    &:hover {
+      background-color: darken($blue, 5%);
+      -webkit-box-shadow: 0px 3px 0px darken($blue, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 0px 3px 0px darken($blue, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 3px 0px darken($blue, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+    }
+    &:active {
+      box-shadow: 0 0 #fff, 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      transform: translateY(1px);
+    }
+  }
+  &.orange {
+    background-color: $orange;
+    -webkit-box-shadow: 0px 3px 0px darken($orange, 15%);
+    -moz-box-shadow: 0px 3px 0px darken($orange, 15%);
+    box-shadow: 0px 3px 0px darken($orange, 15%);
+
+    &:hover {
+      background-color: darken($orange, 5%);
+      -webkit-box-shadow: 0px 3px 0px darken($orange, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 0px 3px 0px darken($orange, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 3px 0px darken($orange, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+    }
+    &:active {
+      box-shadow: 0 0 #fff, 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      transform: translateY(1px);
+    }
+  }
+  &.yellow {
+    background-color: $yellow;
+    -webkit-box-shadow: 0px 3px 0px darken($yellow, 15%);
+    -moz-box-shadow: 0px 3px 0px darken($yellow, 15%);
+    box-shadow: 0px 3px 0px darken($yellow, 15%);
+
+    &:hover {
+      background-color: darken($yellow, 5%);
+      -webkit-box-shadow: 0px 3px 0px darken($yellow, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 0px 3px 0px darken($yellow, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      box-shadow: 0px 3px 0px darken($yellow, 15%), 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+    }
+    &:active {
+      box-shadow: 0 0 #fff, 0px -1px 3px 0px rgba(0, 0, 0, 0.25);
+      transform: translateY(1px);
+    }
+  }
+}

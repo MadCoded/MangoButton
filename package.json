@@ -1,0 +1,17 @@
+{
+  "name": "MangoButton",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "gulp": "latest"
+  },
+  "author": {
+    "name": "Aktuğ Urun",
+    "email": "aktugurun@gmail.com"
+  },
+  "devDependencies": {
+    "gulp-minify-css": "^1.2.4",
+    "gulp-size": "^2.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
